@@ -79,5 +79,5 @@ The ShopEase Backend API provides the necessary services to build and maintain a
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/shopease-backend.git
+   git clone https://github.com/anikChandraDeb/ShopEase_Backend
    cd shopease-backend
