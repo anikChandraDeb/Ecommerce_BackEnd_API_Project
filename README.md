@@ -81,3 +81,21 @@ The ShopEase Backend API provides the necessary services to build and maintain a
    ```bash
    git clone https://github.com/anikChandraDeb/ShopEase_Backend
    cd shopease-backend
+
+2. Install dependencies:
+   ```bash
+   npm install  
+3. Configure environment variables: 
+   ```bash
+   Create a .env file and add the following:
+   DB_CONNECTION=<your_mongodb_connection_string>
+   JWT_SECRET=<your_jwt_secret_key>
+   OTP_API_KEY=<otp_service_api_key>
+   SSL_COMMERZ_API_KEY=<sslcommerz_api_key>
+   PORT=3000
+4. Run the application:
+   ```bash
+   npm start
+  
+   
+
