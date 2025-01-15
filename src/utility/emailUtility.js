@@ -5,7 +5,7 @@ const EmailSend = async (EmailTo,EmailText,EmailSubject)=>{
     const transporter = nodemailer.createTransport({
         host:EMAIL_HOST,
         port:EMAIL_PORT,
-        secure:true,
+        secure:false,
         auth:{
             user:EMAIL_USER,
             pass: EMAIL_PASSWORD
